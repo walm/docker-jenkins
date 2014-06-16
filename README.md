@@ -16,6 +16,8 @@ or with mounted config dir
 
     docker run -d --env JENKINS_HOME=/jenkins -v /data/jenkins:/jenkins walm/jenkins
 
+you can also use `JENKINS_ARGS` to pass argument to jenkins.war.
+
 ## Building
 
 To build the image, simply invoke
